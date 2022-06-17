@@ -1,0 +1,98 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.google.com/specimen/Poppin');
+
+body{
+    background-image: url("./images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    width:1440px;
+    padding:30px;
+    color:white;
+    margin-left:30px;
+  
+}
+
+.container1{
+    display:flex;
+
+
+}
+
+
+.picture{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    margin:20px;
+
+}
+
+.text{
+    font-family:'Open Sans';
+    font-weight:400; 
+    max-width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding:20px;
+    font-size:20px;
+    gap:10px;
+}
+
+.title{
+    font-size:50px;
+    font-weight:600px;
+    font-family:'Open Sans';
+    
+}
+
+.button{
+    border-radius:25px;
+    padding: 12px;
+    width:180px;
+    font-size:18px;
+    color:rgb(61, 58, 58);
+    border:1px solid hsl(257, 40%, 49%);
+
+}
+
+.button:hover{
+    background-color:orange;
+} 
+
+
+.icons{
+    display:flex;
+    justify-content:flex-end;
+    bottom:2em;
+    left:0;
+    right:5em;
+    gap:20px;
+     
+
+}
+.icons img{
+    border:2px solid white;
+    border-radius:50%;
+    padding:2px;
+}
+
+.icons img:hover{
+    background-color:orange;
+    
+}
+
+
+
+.footer{
+    position:fixed;
+    display:flex;
+    bottom:0;
+    left:0;
+    right:0;
+    align-items:center;
+    justify-content:center;
+    height:52px;
+    visibility:hidden;
+     
+}
